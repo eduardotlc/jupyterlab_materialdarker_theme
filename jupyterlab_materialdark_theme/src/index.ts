@@ -6,26 +6,24 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * Initialization data for the @oriolmirosa/jupyterlab_materialdarker extension.
+ * Initialization data for the jupyterlab_materialdarker_theme extension.
  */
-const extension: JupyterFrontEndPlugin<void> = {
+const plugin: JupyterFrontEndPlugin<void> = {
   id: 'jupyterlab_materialdarker_theme:plugin',
-  description: 'A Material darker based JupyterLab theme extension.',
-  requires: [IThemeManager],
+  description: 'A material darker JupyterLab theme extension.',
   autoStart: true,
+  requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    console.log(
-      'JupyterLab extension jupyterlab_materialdarker_theme is activated!'
-    );
+    console.log('JupyterLab extension jupyterlab_materialdarker_theme is activated!');
     const style = 'jupyterlab_materialdarker_theme/index.css';
 
     manager.register({
       name: 'jupyterlab_materialdarker_theme',
-      isLight: false,
+      isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
     });
   }
 };
 
-export default extension;
+export default plugin;
