@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.0.9
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: eduardotcampos@usp.br
+author_name: Eduardo Campos
+has_binder: false
+has_settings: false
+kind: theme
+labextension_name: jupyterlab_materialdarker_theme
+project_short_description: A Material derker JupyterLab theme extension.
+python_name: jupyterlab_materialdarker_theme
+repository: https://github.com/eduardotlc/jupyterlab_materialdarker_theme
+test: false
+
