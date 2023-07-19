@@ -5,9 +5,6 @@ import {
 
 import { IThemeManager } from '@jupyterlab/apputils';
 
-/**
- * Initialization data for the @oriolmirosa/jupyterlab_materialdarker extension.
- */
 const extension: JupyterFrontEndPlugin<void> = {
   id: 'jupyterlab_materialdarker_theme:plugin',
   description: 'A Material darker based JupyterLab theme extension.',
