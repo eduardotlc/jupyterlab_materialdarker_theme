@@ -2,7 +2,7 @@
 
 ---
 
-**An ariake dark palette based JupyterLab theme extension.**
+**A Material Darker JupyterLab theme extension.**
 
 |       build       |         PyPi          |
 | :---------------: | :-------------------: |
@@ -121,4 +121,4 @@ pip uninstall jupyterlab_materialdarker_theme
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `jupyterlab_ariakedark_theme` within that folder.
+folder is located. Then you can remove the symlink named `jupyterlab_materialdarker_theme` within that folder.
