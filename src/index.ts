@@ -20,7 +20,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const style = 'jupyterlab_materialdarker_theme/index.css';
 
     manager.register({
-      name: 'jupyterlab_materialdarker_theme',
+      name: 'Material Darker',
       isLight: false,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)

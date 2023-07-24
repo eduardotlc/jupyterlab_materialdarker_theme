@@ -1,6 +1,8 @@
-# JupyterLab Material Darker Theme
+# Jupyterlab Material Darker Theme
 
-**A material darker JupyterLab theme extension.**
+---
+
+**An ariake dark palette based JupyterLab theme extension.**
 
 |       build       |         PyPi          |
 | :---------------: | :-------------------: |
@@ -8,10 +10,10 @@
 
 [ci-badge]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme/workflows/Build/badge.svg
 [ci]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme/actions/workflows/build.yml
-[pypi-badge]: https://badge.fury.io/py/jupyterlab-materialdarker-theme.svg
+[pypi-badge]: ./images/badge_pypi.svg
 [pypi]: https://badge.fury.io/py/jupyterlab-materialdarker-theme
 
-eduardotcampos@usp.br [2023]
+<eduardotcampos@usp.br> **[2023]**
 
 ## Appearance
 
@@ -28,7 +30,13 @@ eduardotcampos@usp.br [2023]
 To install the extension, execute:
 
 ```bash
-pip install jupyterlab_ariakedark_theme
+pip install jupyterlab_materialdarker_theme
+```
+
+To check the installation, execute:
+
+```bash
+jupyter labextension list
 ```
 
 ## Uninstall
@@ -36,10 +44,14 @@ pip install jupyterlab_ariakedark_theme
 To remove the extension, execute:
 
 ```bash
-pip uninstall jupyterlab_ariakedark_theme
+pip uninstall jupyterlab_materialdarker_theme
 ```
 
 ## Contributing
+
+To make personal customizations to the theme, edit the [variables.css](./style/variables.css) file, and then run the development install steps listed bellow.
+
+Feel free to make [pending](./TODO.md) or other optimizations and pull requests, this theme is still under development and any contribution is very much appreciated.
 
 ### Development install
 
@@ -49,23 +61,47 @@ The `jlpm` command is JupyterLab's pinned version of
 [yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use
 `yarn` or `npm` in lieu of `jlpm` below.
 
+- Clone the repo to your local environment:
+
 ```bash
-# Clone the repo to your local environment
-# Change directory to the jupyterlab_ariakedark_theme directory
-# Install package in development mode
-pip install -e "."
-# Link your development version of the extension with JupyterLab
+git clone https://github.com/eduardotlc/jupyterlab_materialdarker_theme
+```
+
+- Change directory to the jupyterlab_materialdarker_theme directory:
+
+```bash
+cd jupyterlab_materialdarker_theme
+```
+
+- Install package in development mode:
+
+```bash
+pip install -ve "."
+```
+
+- Link your development version of the extension with JupyterLab:
+
+```bash
 jupyter labextension develop . --overwrite
-# Rebuild extension Typescript source after making changes
+```
+
+- Rebuild extension Typescript source after making changes:
+
+```bash
 jlpm build
 ```
 
 You can watch the source directory and run JupyterLab at the same time in different terminals to watch for changes in the extension's source and automatically rebuild the extension.
 
+- Watch the source directory in one terminal, automatically rebuilding when needed:
+
 ```bash
-# Watch the source directory in one terminal, automatically rebuilding when needed
 jlpm watch
-# Run JupyterLab in another terminal
+```
+
+- Run JupyterLab in another terminal:
+
+```bash
 jupyter lab
 ```
 
@@ -80,13 +116,9 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
-pip uninstall jupyterlab_ariakedark_theme
+pip uninstall jupyterlab_materialdarker_theme
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
 folder is located. Then you can remove the symlink named `jupyterlab_ariakedark_theme` within that folder.
-
-### Packaging the extension
-
-See [RELEASE](RELEASE.md)
