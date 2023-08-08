@@ -4,14 +4,17 @@
 
 **A Material Darker JupyterLab theme extension.**
 
-|       build       |         PyPi          |
-| :---------------: | :-------------------: |
-| [![ci-badge]][ci] | [![pypi-badge]][pypi] |
+|       build       |         PyPi          |        License         |    Update     |
+| :---------------: | :-------------------: | :--------------------: | :-----------: |
+| [![ci-badge]][ci] | [![pypi-badge]][pypi] | [![mitbadge]][license] | ![lastupdate] |
 
 [ci-badge]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme/workflows/Build/badge.svg
 [ci]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme/actions/workflows/build.yml
 [pypi-badge]: ./images/badge_pypi.svg
 [pypi]: https://badge.fury.io/py/jupyterlab-materialdarker-theme
+[mitbadge]: ./images/badgemit.svg
+[license]: https://opensource.org/licenses/MIT
+[lastupdate]: ./images/badgeupdate.svg
 
 <eduardotcampos@usp.br> **[2023]**
 
