@@ -4,19 +4,24 @@
 
 **A Material Darker JupyterLab theme extension.**
 
-|       build       |         PyPi          |        License         |    Update     |
-| :---------------: | :-------------------: | :--------------------: | :-----------: |
-| [![ci-badge]][ci] | [![pypi-badge]][pypi] | [![mitbadge]][license] | ![lastupdate] |
+[![updatebadge]][update] [![pypibadge]][pypi] [![mitbadge]][license] [![ci-badge]][ci]
 
-[ci-badge]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme/workflows/Build/badge.svg
+[![emailbadge]][email]
+
+[update]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme/commits/master/
+[license]: https://opensource.org/licenses/mit
+[pypi]: https://pypi.org/project/jupyterlab-materialdarker-theme/
+[pypibadge]: https://img.shields.io/pypi/v/jupyterlab_materialdarker_theme.svg?logo=python&logoColor=yellow&color=7e7edd&style=for-the-badge
+[ci-badge]: https://img.shields.io/github/actions/workflow/status/eduardotlc/jupyterlab_materialdarker_theme/build.yml?style=for-the-badge&logo=github&logoColor=de97f2&color=68f1ad
 [ci]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme/actions/workflows/build.yml
-[pypi-badge]: ./images/badge_pypi.svg
-[pypi]: https://badge.fury.io/py/jupyterlab-materialdarker-theme
-[mitbadge]: ./images/badgemit.svg
-[license]: https://opensource.org/licenses/MIT
-[lastupdate]: ./images/badgeupdate.svg
-
-<eduardotcampos@usp.br> **[2023]**
+[email]: mailto:eduardotcampos@usp.br
+[emailbadge]: https://img.shields.io/badge/Email-7e7edd?style=for-the-badge&logo=gmail
+[ariakedarkbadge]: https://img.shields.io/badge/Ariake_Dark-6363ab?style=for-the-badge&logo=jupyter
+[ariakedark]: https://github.com/eduardotlc/jupyterlab_materialdarker_theme
+[midnightseabadge]: https://img.shields.io/badge/Midnight_Sea-a571f4?style=for-the-badge&logo=jupyter
+[midnightsea]: https://github.com/eduardotlc/jupyterlab_midnightsea_theme
+[mitbadge]: https://img.shields.io/badge/License-MIT-9aefea?style=for-the-badge&logo=gitbook
+[updatebadge]: https://img.shields.io/badge/Updated-June_2024-93ddfb?style=for-the-badge&logo=googlecalendar
 
 ## Appearance
 
@@ -130,6 +135,6 @@ folder is located. Then you can remove the symlink named `jupyterlab_materialdar
 
 See my other Jupyter Lab themes
 
-[Ariake Dark](https://github.com/eduardotlc/jupyterlab_ariakedark_theme)
+[![ariakedarkbadge]][ariakedark]
 
-[Midnight Sea](https://github.com/eduardotlc/jupyterlab_midnightsea_theme)
+[![midnightseabadge]][midnightsea]
