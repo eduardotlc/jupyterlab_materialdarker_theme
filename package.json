@@ -1,6 +1,6 @@
 {
     "name": "jupyterlab_materialdarker_theme",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "A Material derker JupyterLab theme extension.",
     "keywords": [
         "jupyter",
